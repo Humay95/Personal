@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+position: fixed;
+  display: flex;
+   top:0;
+   left:0;
+   right: 0;
+   background-color: #f9f9ff;
+   height: 60px;
+
+}
+.personal {
+ flex: 1;
+    padding-left: 60px;
+ 
+}
+.menyu{
+   
+    flex:1;
+    font-family:  poppins,sans-serif;
+}
+.ul {
+    list-style-type:none;
+
+
+ 
+ }
+ a{
+     text-decoration: none;
+     color: black
+ }
+a:hover{
+    color: #007bff;
+}
+.this {
+
+    font-family:  Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+
+.philip {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#222;
+    font-size: 45px;
+}
+
+
+
+
+
+.you {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    font-family: poppins, sans-serif;
+    color: #777;
+}
+
+.sol {
+  margin-top: 120px ; 
+  margin-left: 50px;
+  background-color: #f9f9ff;
+  display: flex;
+}
+
+.sag {
+    float: right;
+margin-top:-260px;
+padding-right: 80px;
+
+}
+
+.discover{
+background: linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+width:30%;
+height: 6%;
+color: white;
+}
+.discovernow{
+color: white;
+padding-left: 10%;
+line-height: 250%;
+text-decoration: none;
+
+}
+
+
+li{
+float: left;
+padding-left: 10px;
+}
+.img1{
+float: right;
+margin-right: 15%;
+flex: 2;
+
+}
+.solyaz{
+ 
+    padding-top: 10%;
+    padding-left: 40px;
+    flex:1;
+}
+.img2{
+
+    flex: 1;
+}
+.sagyazi{
+    flex: 1;
+    
+}
+.saghisse{
+    display: flex;
+    margin-top: 5%;
+}
+.about{
+    font-family:  Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+.personal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#222;
+    font-size: 45px;
+    font-weight: bold;
+ 
+    padding:0;
+}
+.here{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    font-family: poppins, sans-serif;
+    color: #777;
+    width: 400px;
+}
+
+.humay .little {
+    position: relative;
+    background-color: black;
+    height: 300px;
+   
+    margin: 5px;
+
+}
+
+.humay {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    margin: 0px;
+}
+
+.little div {
+    position:absolute;
+    width: 100%;
+    height: 339px;
+    background: blue;
+    top:0;
+    left:0;
+    display:none;
+    opacity: .5;
+    
+}
+.little:hover div{
+    display: block;
+
+}
+
